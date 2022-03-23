@@ -8,7 +8,7 @@ public class Animal {
     private String name;
 
     //Method Overloading - Different parameters and return type
-    //Method Overriding - Same method signature return dynamic
+    //Method Overriding - Same method signature different body
 
     //Constructors
     public Animal() {
@@ -52,7 +52,7 @@ public class Animal {
         return true;
     }
     public String swim() {
-        return "I am swimming";
+        return "I am swimming in Super which is the Animal class...";
     }
     public String run() {
         return "I am running man hear me roar!!!";
