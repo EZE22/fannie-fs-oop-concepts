@@ -1,7 +1,18 @@
+//Developer Comments
+/*
+* This is where you would put your comments.
+* */
+
+//Package
 package zoo;
 
-//User Defined Blueprint
-public class Animal {
+//Imports
+import interfaces.ICommunication;
+
+//TODO Discuss: Talk about using TODOS
+
+//Class Declaration
+public class Animal implements ICommunication {
     //Fields
     private int age;
     private String gender;
@@ -69,6 +80,9 @@ public class Animal {
                 '}';
     }
 
-    //TODO Student Setup: Get with whomever needs help with setting up on personal machine.
+    @Override
+    public String speak() {
+        return "I am speaking";
+    }
 
 }
