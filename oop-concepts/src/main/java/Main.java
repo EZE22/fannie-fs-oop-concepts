@@ -1,5 +1,6 @@
 import zoo.Animal;
 import zoo.Duck;
+import zoo.Fish;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,6 +51,24 @@ public class Main {
         System.out.println("\nObject 3");
         System.out.println(ellie);
         System.out.println(ellie.getFirstName() + " is my daughter");
+
+        //Fish 1
+        Fish fish1 = new Fish();
+        fish1.setAge(2);
+        fish1.setName("Donald");
+        System.out.println("Fish 1: " + fish1.getName() + " Age: " + fish1.getAge());
+        System.out.println(fish1);
+
+        //Fish 2
+        Fish fish2 = new Fish(25, true);
+        fish2.setName("Micky");
+        System.out.println(fish2);
+
+        //Fish 3
+        Fish fish3 = new Fish(3, "male", "Flapper", 25, true);
+        fish3.setName("Nemo");
+        System.out.println(fish3);
+
 
     }
 

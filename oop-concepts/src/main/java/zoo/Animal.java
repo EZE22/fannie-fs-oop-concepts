@@ -18,6 +18,7 @@ public class Animal implements ICommunication {
     private String gender;
     private String name;
 
+    //TODO Comments: Remove
     //Method Overloading - Different parameters and return type
     //Method Overriding - Same method signature different body
 
@@ -67,17 +68,6 @@ public class Animal implements ICommunication {
     }
     public String run() {
         return "I am running man hear me roar!!!";
-    }
-
-    //TODO Remove: We will be using inheritance so we will not need this.
-    //To String
-    @Override
-    public String toString() {
-        return "Animal{" +
-                "age=" + age +
-                ", gender='" + gender + '\'' +
-                ", name='" + name + '\'' +
-                '}';
     }
 
     @Override
