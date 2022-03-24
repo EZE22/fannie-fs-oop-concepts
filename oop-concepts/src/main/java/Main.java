@@ -11,42 +11,13 @@ public class Main {
 //        System.out.println(bear.getAge());
 //        System.out.println(bear.getAge("Adam"));
 
-        //Inheritance
+        //Instantiation of a new Object
         Animal duck = new Duck(50, "Flapper", "Donald");
 
         //System.out.println(duck.swim());
 
         System.out.println(duck);
-
-
-
-
-
-
-
-
-
-
         System.out.println("\n\n");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         //Naming Conventions

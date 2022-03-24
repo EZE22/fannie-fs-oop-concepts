@@ -1,5 +1,11 @@
 package zoo;
 
-public class Lion {
+import Interfaces.Speak;
 
+public class Lion implements Speak {
+
+    @Override
+    public String makeSound() {
+        return "Roar";
+    }
 }

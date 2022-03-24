@@ -1,9 +1,10 @@
 package zoo;
 
-public class Duck extends Animal{
+public class Duck extends Animal {
     //Fields
     private static final String BEAKCOLOR = "Yellow";
 
+    //Override
     //Constructors
     public Duck(int age, String gender, String name) {
         super(age, gender, name);
