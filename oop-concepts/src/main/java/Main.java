@@ -1,44 +1,47 @@
+//Notes
+/*
+ *  This is the end... :)
+ *
+ * //Naming Conventions
+ * //projects name-name || name
+ * //packages lowercase
+ * //classes UpperCamelCase
+ * //fields camelCase
+ * //methods camelCase
+ *
+ * */
+
+//Imports
 import zoo.Animal;
-import zoo.Duck;
 import zoo.Fish;
 
+//Class Declaration
 public class Main {
     public static void main(String[] args) {
-
-        //Overloading Methods
-//        Animal bear = new Animal();
-//        bear.setName("Bear");
-//        bear.setAge(5);
-//        System.out.println(bear.getAge());
-//        System.out.println(bear.getAge("Adam"));
+        //Welcome Message
+        System.out.println("Animal Mini Project");
 
         //Instantiation of a new Object
-        Animal duck = new Duck(50, "Flapper", "Donald");
+        Animal animal = new Animal(41, "Male",  "Adam Ingram");
+        System.out.println("Animal Name:  " + animal.getName() + " \nAnimal Age:  " + animal.getAge());
 
-        //System.out.println(duck.swim());
-
-        System.out.println(duck);
-        System.out.println("\n\n");
-
-
-        //Naming Conventions
-        //projects name-name || name
-        //packages lowercase
-        //classes UpperCamelCase
-        //fields camelCase
-        //methods camelCase
+        //Overloading Methods bear.getAge(empty) and bear.getAge(String)
+        Animal bear = new Animal();
+        bear.setName("Bear");
+        bear.setAge(5);
+        System.out.println(bear.getAge("Adam"));
 
         //Object 1
         Person adam = new Person();
-        System.out.println("Object 1");
+        System.out.println("\nObject 1");
         System.out.println(adam);
         //set some state
         adam.setFirstName("Adam");
         adam.setLastName("Ingram");
         adam.setAge(41);
         System.out.println("First Name " + adam.getFirstName() +
-                           " Last Name: " + adam.getLastName() +
-                           " Age: " + adam.getAge());
+                " Last Name: " + adam.getLastName() +
+                " Age: " + adam.getAge());
 
         //Object 2
         Person lindsay = new Person("Lindsay", "Ingram", 25);
@@ -69,7 +72,5 @@ public class Main {
         fish3.setName("Nemo");
         System.out.println(fish3);
 
-
     }
-
 }
