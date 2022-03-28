@@ -16,7 +16,7 @@ import zoo.Animal;
 import zoo.Fish;
 
 //Class Declaration
-public class Main {
+public class AnimalMiniMain {
     public static void main(String[] args) {
         //Welcome Message
         System.out.println("Animal Mini Project");
