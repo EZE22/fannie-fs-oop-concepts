@@ -45,7 +45,6 @@ public class ZooMain {
                     System.out.println("Please pick either (1 - 4)");
             }
         }
-
     }
 
     //Methods
@@ -102,5 +101,4 @@ public class ZooMain {
     public static void viewLion() {
         System.out.println(lion);
     }
-
 }
