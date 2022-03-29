@@ -1,3 +1,5 @@
+package oop;
+
 //User Defined Blueprint
 public class Person {
     //Fields
@@ -8,6 +10,10 @@ public class Person {
 
     //Default Constructor
     public Person() {
+    }
+
+    public Person(String firstName) {
+        this.firstName = firstName;
     }
 
     //Parameterized Constructor
@@ -43,18 +49,9 @@ public class Person {
     }
 
     //To String
-//    @Override
-//    public String toString() {
-//        return "My name is " + getFirstName();
-//    }
-
-
     @Override
     public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                '}';
+        return getFirstName();
     }
+
 }

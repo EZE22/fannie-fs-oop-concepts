@@ -12,6 +12,7 @@
  * */
 
 //Imports
+import oop.Person;
 import zoo.Animal;
 import zoo.Fish;
 
