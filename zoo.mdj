@@ -6425,23 +6425,6 @@
 										},
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAF/ziPImnhl4sY=",
-											"_parent": {
-												"$ref": "AAAAAAF/zOJEvn77+Ao="
-											},
-											"model": {
-												"$ref": "AAAAAAF/ziPIf3hQGTM="
-											},
-											"font": "Arial;13;0",
-											"left": 2325,
-											"top": 436,
-											"width": 271,
-											"height": 13,
-											"text": "+keepViewingAnimals(): boolean",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
 											"_id": "AAAAAAF/0antCGEe28o=",
 											"_parent": {
 												"$ref": "AAAAAAF/zOJEvn77+Ao="
@@ -6451,7 +6434,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 2325,
-											"top": 451,
+											"top": 436,
 											"width": 271,
 											"height": 13,
 											"text": "+View Duck()",
@@ -6468,7 +6451,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 2325,
-											"top": 466,
+											"top": 451,
 											"width": 271,
 											"height": 13,
 											"text": "+View Fish()",
@@ -6485,7 +6468,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 2325,
-											"top": 481,
+											"top": 466,
 											"width": 271,
 											"height": 13,
 											"text": "+View Lion()",
@@ -6496,7 +6479,7 @@
 									"left": 2320,
 									"top": 356,
 									"width": 281,
-									"height": 143
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -11367,25 +11350,6 @@
 										"$ref": "AAAAAAF/0aaUOEGpU80="
 									},
 									"type": "int",
-									"direction": "return"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF/ziPIf3hQGTM=",
-							"_parent": {
-								"$ref": "AAAAAAF/zOJEvX7ywMk="
-							},
-							"name": "keepViewingAnimals",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF/ziT9lHl9iGM=",
-									"_parent": {
-										"$ref": "AAAAAAF/ziPIf3hQGTM="
-									},
-									"type": "boolean",
 									"direction": "return"
 								}
 							]
